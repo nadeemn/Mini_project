@@ -1,0 +1,494 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* my code */
+header{
+  margin: 0 10px;
+}
+.main-wrapper{
+  width: 1000px;
+  height: auto;
+}
+.main-wrapper li{
+  margin: 0 10px;
+  float: left;
+}
+
+a{
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+body{
+background-color: white;
+}
+
+
+header nav{
+  width: 100%;
+  height: 60px;
+  background-color: white ;
+
+}
+header nav ul{
+float: left;
+margin: 0, 10px;
+
+}
+header nav ul li {
+  float: left;
+  list-style: none;
+  padding-right: 10px;
+}
+header nav ul li a{
+  font-family: sans-serif;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  color: #111;
+  line-height: 63px;
+  font-weight: bold;
+}
+header nav ul :hover a{
+  color: darkgreen;
+}
+header nav ul li:active{
+  text-decoration: underline;
+}
+
+
+header .nav-login{
+  float: right;
+
+}
+
+header .nav-login form{
+float: left;
+  padding-top: 15px;
+  margin: 0 10px;
+}
+
+header .nav-login form input{
+  float: left;
+  width: 140px;
+  height: 30px;
+  padding: 0px 10px;
+  margin-left: 10px;
+  border: none;
+  background-color: #ccc;
+  font-family: arial;
+  font-size: 14px;
+  color: #111;
+  line-height: 30px;
+
+}
+
+
+header .nav-login form button{
+  float: right;
+  width: 60px;
+  height: 30px;
+  margin-left: 10px;
+  border: none;
+  background-color: #f3f3f3;
+  font-family: arial;
+  font-size: 14px;
+  color: #111;
+  cursor: pointer;
+
+}
+
+header .nav-login form button{
+  float: right;
+  width: 60px;
+  height: 30px;
+  margin-left: 10px;
+  border: none;
+  background-color: #f3f3f3;
+
+}
+
+header .nav-login form button:hover {
+  background-color:  grey;
+  text-decoration: none;
+}
+
+header .nav-login a{
+  margin: 0 5px;
+  display: block;
+  width: 80px;
+  height: 50px;
+  padding: 1px;
+  border: none;
+  float: right;
+  background-color: white;
+  font-family: arial;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  line-height: 63px;
+  cursor: pointer;
+}
+header .nav-login a:hover{
+  color: grey;
+}
+
+.main-container {
+  padding-top: 0px;
+  position: relative;
+}
+.main-container h2 {
+
+  font-family: fantasy;
+  font-size: 20px;
+  color: #111;
+  line-height: 60px;
+  text-align: center;
+
+}
+
+.signup-form {
+  width: 400px;
+  margin: 0 auto;
+  padding-top:  40px;
+  padding-left: 500px;
+}
+
+.signup-form input {
+  width: 90%;
+  height: 40px;
+  padding: 0px 10%;
+  margin-bottom: 4px;
+  border: none;
+  background-color: #fff;
+  font-family: arial;
+  font-size: 16px;
+  color: #111;
+  line-height: 40px;
+}
+
+.signup-form input {
+  width: 90%;
+  height: 40px;
+  padding: 0px 5%;
+  margin-bottom: 4px;
+  border: none;
+  background-color: #fff;
+  font-family: arial;
+  font-size: 16px;
+  color: #111;
+  line-height: 40px;
+}
+
+
+
+.signup-form button {
+  display: block;
+  margin: auto;
+  width: 30%;
+  height: 40px;
+  border: none;
+  background-color: #222;
+  font-family: arial;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #111;
+}
+
+
+
+ header .dropdown{
+  float: left;
+  position: relative;
+  display: block;
+}
+
+header .dropdown .dropbtn {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 22px 16px;
+    background-color: inherit;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+header .dropdown .dropbtn:hover{
+  color: green;
+}
+ header .dropdown-content{
+display: none;
+position: absolute;
+background-color: white;
+min-width: 160px;
+box-shadow: inherit;
+z-index: 1;
+}
+
+header .dropdown-content a {
+  font-family: arial;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: arial;
+    display: block;
+    text-align: center;
+}
+
+header  .dropdown-content a:hover {background-color: grey;}
+
+ header .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.district{
+  width: 100%;
+  height: 200px;
+  position: absolute;
+background-image: url("../image/im.jpg");
+
+  padding-top: 220px;
+  padding-bottom: 50px;
+}
+.hospitality{
+  width: 100%;
+  height: 200px;
+  position: absolute;
+background-image: url("../image/hosp.jpg");
+background-position: center;
+  padding-top: 220px;
+  padding-bottom: 50px;
+}
+.things{
+  width: 100%;
+  height: 200px;
+  position: absolute;
+background-image: url("../pictures/kovalamsurf.jpg");
+background-position: center;
+  padding-top: 220px;
+  padding-bottom: 50px;
+}
+.hotel{
+  width: 100%;
+  height: 200px;
+  position: absolute;
+background-image: url("../image/im.jpg");
+background-position: center;
+background-repeat: no-repeat;
+  padding-top: 220px;
+  padding-bottom: 50px;
+
+}
+.textresized{
+  background-image: url("../image/loc.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  border: solid 1px white;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding-left: 80px;
+  text-align: left;
+  font-family: arial;
+  font-size: 16px;
+  width: 50%;
+  height: 53px;
+}
+
+.submitres{
+  color: white;
+  width: 10%;
+  position: relative;
+  left: -4px;
+  height: 54px;
+  font-size: 16px;
+  font-style: arial;
+  background-color: white;
+  border-top-right-radius:  30px;
+  border-bottom-right-radius:  30px;
+  border: 0px;
+padding: 13px;
+  cursor: pointer;
+  margin: auto;
+  background-color: #222;
+}
+.submitres:hover{
+  background-color: grey;
+
+}
+
+.search-class{
+  width: auto;
+  margin: 0 15%;
+  height: 1000px;
+  background-color: #f1f1f1;
+  padding-top: 0px;
+  padding-left: 50px;
+  position: relative;
+
+}
+.list-place{
+  padding-left: 500px;
+  padding-top: 50px;
+}
+.cont{
+  height: auto;
+  margin: 0 20px;
+  align : center;
+    padding: 0 24px;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin-top: 550px;
+    padding-left: 75px;
+}
+
+.cont h1
+{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.cont h2{
+  margin: 0 auto;
+  padding-top: 70px;
+  text-align: left;
+  font-size: 30px;
+  padding-left: 50px;
+}
+
+div.gallery {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 360px;
+
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 280px;;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.dgallery {
+    margin: 20px;
+    float: left;
+    width: 360px;
+    padding-left: 500px;
+
+}
+
+div.dgallery:hover {
+    border: 1px solid #777;
+}
+
+div.dgallery img {
+    width: 100%;
+    height: 280px;;
+}
